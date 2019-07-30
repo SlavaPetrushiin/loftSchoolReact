@@ -23,5 +23,17 @@
     "eslint-plugin-cypress": "^2.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-react-perf": "^2.0.9"
-  }
+  },
+  "description": "* Создайте в папке `src/components/App` компонент `App.js`.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlavaPetrushiin/loftSchoolReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlavaPetrushiin/loftSchoolReact/issues"
+  },
+  "homepage": "https://github.com/SlavaPetrushiin/loftSchoolReact#readme"
 }
