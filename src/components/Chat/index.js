@@ -25,8 +25,8 @@ class Chat extends Component{
 	
 	render(){
 		let {messages} = this.state;
-		let mess = messages.map(item => {
-			return <Message text={item.text} />
+		let mess = messages.map((item, index) => {
+			return <Message text={item.text} key={index}/>
 		})
 		
 		return (
@@ -39,8 +39,8 @@ class Chat extends Component{
 				<input
 					type="text"
 					className="input-message"
-					onChange={this.changeInputMessage.bind(this)}
-					onKeyPress={this.sendMessageOnEnter.bind(this)}
+					onChange={this.changeInputMessage}
+					onKeyPress={this.sendMessageOnEnter}
 					value={this.state.messageInput}
 				/>
 			</div>
